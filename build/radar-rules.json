@@ -1119,63 +1119,6 @@
       }
     ]
   },
-  "35photo.pro": {
-    "_name": "35PHOTO",
-    ".": [
-      {
-        "title": "New photos",
-        "docs": "https://docs.rsshub.app/routes/picture#35photo-new-photos",
-        "source": [
-          "/new",
-          "/"
-        ],
-        "target": "/35photo/new"
-      },
-      {
-        "title": "Featured photos",
-        "docs": "https://docs.rsshub.app/routes/picture#35photo-featured-photos",
-        "source": [
-          "/new/actual",
-          "/"
-        ],
-        "target": "/35photo/actual"
-      },
-      {
-        "title": "New interesting",
-        "docs": "https://docs.rsshub.app/routes/picture#35photo-new-interesting",
-        "source": [
-          "/new/interesting",
-          "/"
-        ],
-        "target": "/35photo/interesting"
-      },
-      {
-        "title": "Photos on the world map",
-        "docs": "https://docs.rsshub.app/routes/picture#35photo-photos-on-the-world-map",
-        "source": [
-          "/new/map",
-          "/"
-        ],
-        "target": "/35photo/map"
-      },
-      {
-        "title": "Genre",
-        "docs": "https://docs.rsshub.app/routes/picture#35photo-genre",
-        "source": [
-          "/"
-        ]
-      },
-      {
-        "title": "Author",
-        "docs": "https://docs.rsshub.app/routes/picture#35photo-author",
-        "source": [
-          "/:id",
-          "/"
-        ],
-        "target": "/35photo/author/:id"
-      }
-    ]
-  },
   "36kr.com": {
     "_name": "36氪",
     ".": [
@@ -7471,16 +7414,6 @@
           "/:field"
         ],
         "target": "/dblp/:field"
-      }
-    ]
-  },
-  "buxiuse.com": {
-    "_name": "不羞涩",
-    ".": [
-      {
-        "title": "分类",
-        "docs": "https://docs.rsshub.app/routes/picture#bu-xiu-se",
-        "source": "/"
       }
     ]
   },
@@ -14327,6 +14260,47 @@
       }
     ]
   },
+  "hpoi.net": {
+    "_name": "Hpoi手办维基",
+    "www": [
+      {
+        "title": "情报",
+        "docs": "https://docs.rsshub.app/routes/anime#hpoi-shou-ban-wei-ji",
+        "source": [
+          "/user/home"
+        ],
+        "target": "/hpoi/info/all"
+      },
+      {
+        "title": "所有周边",
+        "docs": "https://docs.rsshub.app/routes/anime#hpoi-shou-ban-wei-ji",
+        "source": [
+          "/hobby/all"
+        ],
+        "target": "/hpoi/items/all"
+      },
+      {
+        "title": "角色周边",
+        "docs": "https://docs.rsshub.app/routes/anime#hpoi-shou-ban-wei-ji"
+      },
+      {
+        "title": "作品周边",
+        "docs": "https://docs.rsshub.app/routes/anime#hpoi-shou-ban-wei-ji"
+      },
+      {
+        "title": "用户动态",
+        "docs": "https://docs.rsshub.app/routes/anime#hpoi-shou-ban-wei-ji"
+      },
+      {
+        "title": "热门推荐",
+        "docs": "https://docs.rsshub.app/routes/anime#hpoi-shou-ban-wei-ji",
+        "source": [
+          "/bannerItem/list"
+        ],
+        "target": "/hpoi/bannerItem"
+      }
+    ]
+  },
   "hrbeu.edu.cn": {
     "_name": "哈尔滨工程大学",
     "yjsy": [
@@ -18913,19 +18887,6 @@
           "/department/details",
           "/"
         ]
-      }
-    ]
-  },
-  "meituclub.com": {
-    "_name": "妹图社",
-    ".": [
-      {
-        "title": "最新",
-        "docs": "https://docs.rsshub.app/routes/picture#mei-tu-she-zui-xin",
-        "source": [
-          "/"
-        ],
-        "target": "/meituclub/latest"
       }
     ]
   },
