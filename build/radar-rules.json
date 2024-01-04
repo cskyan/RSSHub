@@ -9681,6 +9681,19 @@
       {
         "title": "FT 中文网",
         "docs": "https://docs.rsshub.app/routes/traditional-media#financial-times"
+      },
+      {
+        "title": "myFT 个人 RSS",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#financial-times"
+      }
+    ]
+  },
+  "ft.com": {
+    "_name": "Financial Times",
+    ".": [
+      {
+        "title": "myFT personal RSS",
+        "docs": "https://docs.rsshub.app/routes/en/traditional-media#financial-times"
       }
     ]
   },
@@ -10505,6 +10518,19 @@
           "/"
         ],
         "target": "/gocn/jobs"
+      }
+    ]
+  },
+  "gofans.cn": {
+    "_name": "GoFans",
+    ".": [
+      {
+        "title": "最新限免 / 促销应用",
+        "docs": "https://docs.rsshub.app/program-update#gofans",
+        "source": [
+          "/limited/:kind?",
+          "/"
+        ]
       }
     ]
   },
